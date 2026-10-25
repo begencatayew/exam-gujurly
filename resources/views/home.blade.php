@@ -11,7 +11,7 @@
         footsteps of champions? <span>{{ $sportsmens->count() }}</span> </div>
 
 
-    <div class="grid grid-cols-3 gap-4 text-1xl">
+    <div class="grid grid-cols-2 gap-4 text-base">
         @foreach ($sportsmens as $sportmen)
             <div class="shadow-xl p-6 m-6 rounded-2xl bg-lime-800 hover:bg-slate-700 inset-shadow-sm inset-shadow-grey-500">
                 <div>

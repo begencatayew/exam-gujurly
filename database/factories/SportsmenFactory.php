@@ -18,7 +18,10 @@ class SportsmenFactory extends Factory
     public function definition(): array
     {
         return [
-            //
+            'name' => fake()->firstName(),
+            'surname' => fake()->lastName(),
+            'age' => fake()->numberBetween(18, 40),
+            'bio' => fake()->sentence(),
         ];
     }
 }
