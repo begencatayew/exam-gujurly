@@ -16,5 +16,6 @@ class Sportsmen extends Model
         'surname',
         'age',
         'bio',
+        'image',
     ];
 }

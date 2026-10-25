@@ -8,16 +8,13 @@
             <a href="{{route ('home')}}" class="text-lime-400 hover:text-slate-900 transition-colors duration-400">Home</a>
         </div>
 
+
         <div class="text-2xl font-semibold">
-            <a href="" class="text-lime-400 hover:text-slate-900 transition-colors duration-400">About</a>
+            <a href="{{route ('sportsmens')}}" class="text-lime-400 hover:text-slate-900  transition-colors duration-400">Sportsmens</a>
         </div>
 
         <div class="text-2xl font-semibold">
-            <a href="" class="text-lime-400 hover:text-slate-900  transition-colors duration-400">Sportsmans</a>
-        </div>
-
-        <div class="text-2xl font-semibold">
-            <a href=""class="text-lime-400 hover:text-slate-900 transition-colors duration-400">Contact
+            <a href="{{route ('contact')}}"class="text-lime-400 hover:text-slate-900 transition-colors duration-400">Contact
                 Us</a>
         </div>
     </div>
