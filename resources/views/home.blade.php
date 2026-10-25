@@ -12,26 +12,26 @@
 
 
     <div class="grid grid-cols-3 gap-4 text-1xl">
-        @foreach ($sportmens as $sportmen)
+        @foreach ($sportsmens as $sportmen)
             <div class="shadow-xl p-6 m-6 rounded-2xl bg-lime-800 hover:bg-slate-700 inset-shadow-sm inset-shadow-grey-500">
                 <div>
-                    <b>Id:</b> {{ $sportsmen->id }}
+                    <b>Id:</b> {{ $sportmen->id }}
                 </div>
 
                 <div>
-                    <b>Name:</b> {{ $sportsmen->name }}
+                    <b>Name:</b> {{ $sportmen->name }}
                 </div>
 
                 <div>
-                    <b>Surname:</b> {{ $sportsmen->surname }}
+                    <b>Surname:</b> {{ $sportmen->surname }}
                 </div>
 
                 <div>
-                    <b>Age</b> {{ $sportsmen->table_no }}
+                    <b>Age</b> {{ $sportmen->age }}
                 </div>
 
                 <div>
-                    <b>Biography</b> {{ $sportsmen->order }}
+                    <b>Biography</b> {{ $sportmen->bio }}
                 </div>
             </div>
         @endforeach
