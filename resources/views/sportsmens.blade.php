@@ -5,5 +5,7 @@ Sportsmens
 @endsection
 
 @section('content')
-About
+Right now, You can see all of the avaliable biographies in <b>HOME</b> page
+<br>
+If you have any requmendetions feel free to <br>contact us!
 @endsection

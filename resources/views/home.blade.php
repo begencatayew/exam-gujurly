@@ -19,7 +19,7 @@
                  <img
                     src="{{ asset($sportmen->image) }}"
                     alt="{{ $sportmen->name }} {{ $sportmen->surname }}"
-                    class="h-72 w-full object-cover"
+                    class="h-72 w-full object-cover object-contain"
                 >
                 </div>
 
