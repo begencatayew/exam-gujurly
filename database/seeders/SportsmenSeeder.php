@@ -7,7 +7,7 @@ use App\Models\Sportsmen;
 
 class SportsmenSeeder extends Seeder
 {
-    public function run(): void
+    public function run(): void // el bilen ozum yazdim RANDOM dal
     {
         $sportsmen = [
             [
