@@ -15,6 +15,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // Sportsmen::factory(10)->create();
+        $this->call([
+            SportsmenRandom::class,  // php artisan db:seed edilende SportsmenRandom seeder cagirilya eger de shu funksiyonu gosmadyk bolsodym onno ozum php artisan db:seed --class=SportsmanRandom diyip cagyrmaly bolordym
+        ]);
     }
 }
