@@ -6,7 +6,7 @@
 
 @section('content')
 
-    <div class="text-base py-12">Witness the rise of legends and the relentless journeys behind their greatest triumphs.
+    <div class="text-2xl py-12 text-center text-lime-400">Witness the rise of legends and the relentless journeys behind their greatest triumphs.
         Discover the inspiring stories and untold biographies of the world's most iconic athletes. Ready to follow in the
         footsteps of champions? <br> Avaliable Biographies: <span>{{ $sportsmens->count() }}</span> </div>
 

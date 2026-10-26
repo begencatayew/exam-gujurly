@@ -9,7 +9,7 @@
     @vite(['resources/css/app.css'])
 </head>
 
-<body class="m-0">
+<body class="bg-[#101B2D] m-0">
 
     @include('components.header')
 
